@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import "tailwindcss";
+/* @plugin "daisyui"; */
+@plugin "daisyui" {
+  themes: cupcake --default, cupcake --prefersdark;
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+}
