@@ -3,7 +3,7 @@ import React from "react";
 const GettingStarted = () => {
   return (
     <div class="bg-white pb-24">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="text-center mb-20">
           <h2 class="text-5xl font-bold text-gray-900 mb-6 leading-snug">
             Getting Started is <span class="text-orange-500">Easy</span>
