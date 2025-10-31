@@ -15,8 +15,8 @@ const GettingStarted = () => {
         </div>
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div class="relative group">
-            <div class="hidden lg:block absolute top-24 left-[calc(50%+60px)] w-[calc(100%-80px)] h-1 bg-gradient-to-r from-orange-300 to-transparent"></div>
-            <div class="relative bg-gradient-to-br from-orange-50 to-amber-50 p-8 rounded-3xl border-4 border-orange-200 hover:border-orange-400 transition-all duration-300 hover:shadow-xl h-full">
+            <div class="hidden lg:block absolute top-24 left-[calc(50%+60px)] w-[calc(100%-80px)] h-1 bg-linear-to-r from-orange-300 to-transparent"></div>
+            <div class="relative bg-linear-to-br from-orange-50 to-amber-50 p-8 rounded-3xl border-4 border-orange-200 hover:border-orange-400 transition-all duration-300 hover:shadow-xl h-full">
               <div class="absolute -top-5 -left-5 w-14 h-14 bg-orange-500 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg">
                 1
               </div>
@@ -49,8 +49,8 @@ const GettingStarted = () => {
             </div>
           </div>
           <div class="relative group">
-            <div class="hidden lg:block absolute top-24 left-[calc(50%+60px)] w-[calc(100%-80px)] h-1 bg-gradient-to-r from-orange-300 to-transparent"></div>
-            <div class="relative bg-gradient-to-br from-orange-50 to-amber-50 p-8 rounded-3xl border-4 border-orange-200 hover:border-orange-400 transition-all duration-300 hover:shadow-xl h-full">
+            <div class="hidden lg:block absolute top-24 left-[calc(50%+60px)] w-[calc(100%-80px)] h-1 bg-linear-to-r from-orange-300 to-transparent"></div>
+            <div class="relative bg-linear-to-br from-orange-50 to-amber-50 p-8 rounded-3xl border-4 border-orange-200 hover:border-orange-400 transition-all duration-300 hover:shadow-xl h-full">
               <div class="absolute -top-5 -left-5 w-14 h-14 bg-orange-500 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg">
                 2
               </div>
@@ -80,8 +80,8 @@ const GettingStarted = () => {
             </div>
           </div>
           <div class="relative group">
-            <div class="hidden lg:block absolute top-24 left-[calc(50%+60px)] w-[calc(100%-80px)] h-1 bg-gradient-to-r from-orange-300 to-transparent"></div>
-            <div class="relative bg-gradient-to-br from-orange-50 to-amber-50 p-8 rounded-3xl border-4 border-orange-200 hover:border-orange-400 transition-all duration-300 hover:shadow-xl h-full">
+            <div class="hidden lg:block absolute top-24 left-[calc(50%+60px)] w-[calc(100%-80px)] h-1 bg-linear-to-r from-orange-300 to-transparent"></div>
+            <div class="relative bg-linear-to-br from-orange-50 to-amber-50 p-8 rounded-3xl border-4 border-orange-200 hover:border-orange-400 transition-all duration-300 hover:shadow-xl h-full">
               <div class="absolute -top-5 -left-5 w-14 h-14 bg-orange-500 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg">
                 3
               </div>
@@ -112,7 +112,7 @@ const GettingStarted = () => {
             </div>
           </div>
           <div class="relative group">
-            <div class="relative bg-gradient-to-br from-orange-50 to-amber-50 p-8 rounded-3xl border-4 border-orange-200 hover:border-orange-400 transition-all duration-300 hover:shadow-xl h-full">
+            <div class="relative bg-linear-to-br from-orange-50 to-amber-50 p-8 rounded-3xl border-4 border-orange-200 hover:border-orange-400 transition-all duration-300 hover:shadow-xl h-full">
               <div class="absolute -top-5 -left-5 w-14 h-14 bg-orange-500 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-lg">
                 4
               </div>
