@@ -12,7 +12,6 @@ const Home = () => {
       <Features />
       <GettingStarted />
       <GetStartNow />
-      <Footer />
     </div>
   );
 };
