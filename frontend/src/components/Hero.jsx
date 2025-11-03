@@ -1,8 +1,10 @@
 import React from "react";
 import assets from "../assets/assets";
 import { Users } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <div
       className="hero min-h-screen bg-cover bg-center relative"
@@ -28,7 +30,10 @@ const Hero = () => {
             new skills, and build meaningful relationships.
           </p>
 
-          <button className="btn btn-lg flex items-center gap-2 mt-2 shadow-md hover:scale-105 transition-transform duration-300">
+          <button
+            onClick={() => navigate("/communitychat")}
+            className="btn btn-lg flex items-center gap-2 mt-2 shadow-md hover:scale-105 transition-transform duration-300"
+          >
             <Users className="w-5 h-5" />
             <span>Join the Conversation</span>
           </button>

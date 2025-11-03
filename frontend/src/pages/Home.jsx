@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Features from "../components/Features";
 import GettingStarted from "../components/GettingStarted";
 import GetStartNow from "../components/GetStartNow";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Features />
       <GettingStarted />
       <GetStartNow />
+      <Footer />
     </div>
   );
 };

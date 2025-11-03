@@ -234,7 +234,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col items-center text-center">
         {/* Logo */}
         <div className="flex items-center justify-center gap-3 mb-4">
-          <div className="w-14 h-14 bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/30">
+          <div className="w-14 h-14 bg-linear-to-br from-orange-400 to-orange-600 rounded-2xl flex items-center justify-center shadow-lg shadow-orange-500/30">
             <Heart className="w-7 h-7 text-white fill-white" />
           </div>
           <h2 className="text-3xl font-bold text-gray-800">AASHRAY</h2>
