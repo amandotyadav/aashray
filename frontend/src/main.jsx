@@ -13,6 +13,9 @@ import Contact from "./pages/Contact.jsx";
 import About from "./pages/About.jsx";
 import CommunityChat from "./pages/CommunityChat.jsx";
 import ChatComponentLayout from "./layouts/ChatComponentLayout.jsx";
+import Auth from "./pages/Auth.jsx";
+import AuthLayout from "./layouts/AuthLayout.jsx";
+import ProtectedRoute from "./components/ProtectedRoute.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,9 +28,19 @@ const router = createBrowserRouter(
       <Route
         path="communitychat"
         element={
-          <ChatComponentLayout>
-            <CommunityChat />
-          </ChatComponentLayout>
+          <ProtectedRoute>
+            <ChatComponentLayout>
+              <CommunityChat />
+            </ChatComponentLayout>
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="auth"
+        element={
+          <AuthLayout>
+            <Auth />
+          </AuthLayout>
         }
       />
     </>
