@@ -74,7 +74,7 @@ const Navbar2 = () => {
 
           {/* Logo / Brand */}
           <div className="mx-2 flex-1 px-2 text-2xl font-bold flex items-center gap-3">
-            <div className="w-16 aspect-square bg-gradient-to-br from-orange-400 to-orange-600 shadow-lg rounded-2xl flex items-center justify-center">
+            <div className="w-16 aspect-square bg-linear-to-br from-orange-400 to-orange-600 shadow-lg rounded-2xl flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
