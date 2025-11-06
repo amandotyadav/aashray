@@ -109,11 +109,11 @@ const Features = () => {
             </svg>
           </div>
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Safe &amp; Secure
+            Project Match Making
           </h3>
           <p className="text-xl text-gray-700 leading-relaxed">
-            Your privacy and safety are our top priorities. Enjoy a moderated,
-            respectful community environment.
+            Connects retired individuals with projects and people who need their
+            expertise.
           </p>
         </div>
         <div className="text-card-foreground shadow p-8 rounded-3xl border-4 border-gray-200 hover:border-orange-300 transition-all duration-300 hover:shadow-xl bg-white">
@@ -137,11 +137,11 @@ const Features = () => {
             </svg>
           </div>
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            Inclusive Community
+            AKS (REFLECTION OF LIFE)
           </h3>
           <p className="text-xl text-gray-700 leading-relaxed">
-            Everyone is welcome here. Join a diverse community of seniors from
-            all walks of life.
+            Retirees share their life stories and experiences to inspire, guide
+            and connect with others.
           </p>
         </div>
         <div className="text-card-foreground shadow p-8 rounded-3xl border-4 border-gray-200 hover:border-orange-300 transition-all duration-300 hover:shadow-xl bg-white">
@@ -163,11 +163,11 @@ const Features = () => {
             </svg>
           </div>
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            At Your Pace
+            Volunteering
           </h3>
           <p className="text-xl text-gray-700 leading-relaxed">
-            No pressure, no rush. Engage when you want, how you want. This is
-            your community, your way.
+            Young volunteers support and collaborate with retirees in community
+            events and social initiatives.
           </p>
         </div>
       </div>
